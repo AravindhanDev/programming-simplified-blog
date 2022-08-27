@@ -1,0 +1,50 @@
+nav {
+	padding: 1rem 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.heading p {
+	font-size: 1.4rem;
+	font-weight: 500;
+	letter-spacing: 0.3px;
+	color: var(--secondary-color);
+}
+
+.preferences {
+	position: relative;
+}
+
+.preferences button {
+	padding: 0.4rem 1rem;
+	border-radius: 6px;
+	border: 1px solid var(--secondary-color);
+	background-color: transparent;
+	transition: all 0.3s;
+}
+
+.preferences button:hover {
+	background-color: var(--secondary-light-color);
+	color: var(--secondary-color);
+}
+
+.preferences-box {
+	position: absolute;
+	border-radius: 6px;
+	padding: 1rem 1.5rem;
+	margin-top: 0.5rem;
+	right: 1px;
+	width: 10rem;
+	z-index: 100;
+}
+
+@media (max-width: 550px) {
+	nav {
+		padding: 1rem 0;
+		align-items: center;
+	}
+	.heading p {
+		font-size: 1.1rem;
+	}
+}

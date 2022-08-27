@@ -1,0 +1,51 @@
+.highlight-text {
+	padding: 0.3rem 0.5rem;
+	margin: 0 0.2rem;
+	border-radius: 7px;
+	background-color: var(--span-text-color);
+}
+
+.code-area {
+	padding: 1.3rem;
+	border-radius: 7px;
+	background-color: #272822;
+	font-size: 1.4rem;
+}
+
+code,
+code div {
+	color: #fff;
+}
+
+.post p {
+	font-size: 1.2rem;
+	line-height: 2;
+}
+
+span.violet-text {
+	color: #ae81ff;
+}
+
+span.comment-text {
+	color: #8292a2;
+}
+
+span.blue-text {
+	color: #66d9ef;
+}
+
+span.red-text {
+	color: #f92672;
+}
+
+span.green-text {
+	color: #a6e22e;
+}
+
+span.white-text {
+	color: #eee;
+}
+
+span.yellow-text {
+	color: #e6db74;
+}

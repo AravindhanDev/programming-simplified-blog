@@ -1,0 +1,71 @@
+:root {
+	--secondary-color: #0096ff;
+	--primary-bg-color: #fff;
+	--primary-text-color: #161a1d;
+	--grey-text-color: #7f7c82;
+	--desc-text-color: #423f3e;
+	--secondary-light-color: rgba(0, 150, 255, 0.1);
+	--facebook-color: #3b5998;
+	--twitter-color: #00aced;
+	--linkedin-color: #007fb1;
+	--reddit-color: #ff4500;
+	--whatsapp-color: #25d366;
+	--share-color: #7f7f7f;
+	--span-text-color: #e5e7eb;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: var(--primary-text-color);
+}
+
+a {
+	text-decoration: none;
+	color: var(--secondary-color);
+}
+
+a:hover {
+	color: var(--secondary-color);
+	text-decoration: underline;
+}
+
+input.form-control {
+	box-shadow: none !important;
+	background-color: var(--primary-bg-color);
+	border: 1px solid var(--primary-text-color) !important;
+	color: var(--primary-text-color) !important;
+	border-radius: 2px;
+}
+
+input.form-control:focus {
+	background-color: var(--primary-bg-color);
+	outline: 1.5px solid var(--primary-text-color) !important;
+}
+
+select {
+	background-color: var(--primary-bg-color) !important;
+	color: var(--primary-text-color) !important;
+	box-shadow: none !important;
+}
+
+body {
+	font-family: "IBM Plex Sans", sans-serif;
+	display: flex;
+	justify-content: center;
+	background-color: var(--primary-bg-color);
+}
+
+@media (max-width: 970px) {
+	.main {
+		width: 50rem !important;
+	}
+}
+
+@media (max-width: 800px) {
+	.main {
+		padding: 0 1rem;
+		width: 100vw !important;
+	}
+}
